@@ -1,0 +1,10 @@
+#App-main-header {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.px-10 {
+    padding: auto 10px;
+}
