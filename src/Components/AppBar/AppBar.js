@@ -134,13 +134,14 @@ export default function SearchAppBar(props) {
               className={classes.menuButton}
               color="inherit"
               aria-label="open drawer"
+              onClick={() => props.setMobileMenuIsOpen(!props.mobileMenuIsOpen)}
             >
               <MenuIcon />
             </IconButton>
             <Typography className={classes.title} variant="h6" noWrap>
               <NavLink activeClassname='active' className='navbar-brand nav-item App__nav-link' to='/'>Accueil</NavLink>
             </Typography>
-            <Menu />
+            <Menu mobileMenuIsOpen={props.mobileMenuIsOpen} />
             <div className={classes.search}>
               <div className={classes.searchIcon}>
                 <SearchIcon />

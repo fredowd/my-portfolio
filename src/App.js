@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from '@material-ui/core/Container';
@@ -13,11 +14,12 @@ import About from './Components/SinglePage/About';
 import Portfolio from './Components/SinglePage/Portfolio';
 
 function App() {
+  const [mobileMenuIsOpen, setMobileMenuIsOpen] = useState(false);
+
   return (
     <>
       <Router>
-        <Header />
-
+        <Header mobileMenuIsOpen={mobileMenuIsOpen} setMobileMenuIsOpen={setMobileMenuIsOpen} />
         <Container className="App">
           <Switch>
             <Route path="/portfolio">

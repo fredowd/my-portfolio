@@ -4,10 +4,10 @@ import './Header.css';
 // Components
 import AppBar from '../AppBar/AppBar';
 
-function Header() {
+function Header({ mobileMenuIsOpen, setMobileMenuIsOpen }) {
   return (
     <div display='flex'>
-      <AppBar />
+      <AppBar mobileMenuIsOpen={mobileMenuIsOpen} setMobileMenuIsOpen={setMobileMenuIsOpen} />
     </div>
   );
 }
