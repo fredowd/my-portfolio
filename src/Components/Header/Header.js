@@ -6,7 +6,7 @@ import AppBar from '../AppBar/AppBar';
 
 function Header({ mobileMenuIsOpen, setMobileMenuIsOpen }) {
   return (
-    <div display='flex'>
+    <div display='flex sticky-top'>
       <AppBar mobileMenuIsOpen={mobileMenuIsOpen} setMobileMenuIsOpen={setMobileMenuIsOpen} />
     </div>
   );

@@ -19,6 +19,8 @@ export default function Menu({ mobileMenuIsOpen }) {
             {/* Menu Tablette & Mobile */}
             <Nav className={"App__mobile_menu mr-auto d-block d-lg-none " + (mobileMenuIsOpen === false ? 'transform-x-100vw' : '')}>
 
+                <NavLink activeClassname='active' className='App__nav-link' to='/'>Accueil</NavLink>
+
                 <NavLink activeClassname='active' className='App__nav-link' to="/portfolio">Portfolio</NavLink>
                 <NavLink activeClassname='active' className='App__nav-link' to="/about">A propos</NavLink>
             </Nav>

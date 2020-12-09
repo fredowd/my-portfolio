@@ -1,7 +1,3 @@
-.App_navbar {
-  background: ;
-}
-
 .App__nav-link {
     margin: auto 20px;
     color: rgba(255, 255, 255, 0.7);
@@ -15,4 +11,17 @@
 
 .transform-x-100vw {
   transform: translateX(100vw);
+}
+
+.App__profile_photo {
+  max-height: 200px;
+  width: 150px
+}
+
+.social-link {
+  color: rgb(224, 184, 131)
+}
+
+.social-link:hover {
+  color: rgb(224, 184, 131, 0.7)
 }

@@ -1,10 +1,152 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Image from 'react-bootstrap/Image';
+import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
+import SkillCard from '../Core/SkillsCard';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default function Home() {
     return (
-        <Container>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur enim doloribus corporis saepe vel iste voluptatum nulla minima fugit totam. Quidem beatae numquam odit possimus facilis, quos ut eum, consectetur fuga nam soluta iusto quae sint autem assumenda molestias, ab delectus. Fugit libero nihil qui. Consequatur modi, fugiat velit eius quis officiis quod natus repudiandae unde optio nam accusantium assumenda, labore asperiores, ipsum architecto dolorum! Obcaecati ab necessitatibus nesciunt possimus repudiandae natus esse ad sapiente quas! Ipsa iste illo beatae libero odio quas, earum nesciunt consectetur facilis ex asperiores accusantium magnam tempora laborum, deserunt culpa quod exercitationem aspernatur! Eaque a provident modi tenetur? Beatae voluptates neque sed cupiditate molestias veniam ad, ipsa eos quia cumque reiciendis qui magnam vel quis laudantium incidunt. Harum similique ab accusantium tempora quam obcaecati voluptas corporis provident beatae maiores quo, in quos tempore fugit cupiditate dicta, alias facilis, dolore eaque nisi iure sit commodi assumenda minus. Aliquam qui cumque harum temporibus quod quibusdam, odio ex sapiente, quos magni numquam omnis aperiam ratione quia consequuntur eaque voluptatem placeat alias eius dolor doloribus tempore unde. Incidunt iusto vero hic harum dolores ex suscipit odio fugiat ab. Quod maiores incidunt quaerat nobis voluptatem. Laboriosam distinctio consectetur voluptatum voluptatibus, deserunt minus nemo quidem alias totam maxime autem veritatis eos! Iste repellat recusandae tempore porro ea non molestias dolores earum nostrum aliquid, quia incidunt repudiandae animi omnis aspernatur atque vel at natus, reiciendis voluptate officiis. Aspernatur deserunt aliquam, repudiandae laudantium cum blanditiis fugiat perferendis deleniti fuga quaerat nostrum temporibus dolore quo soluta non nulla architecto aperiam natus veniam sit ducimus exercitationem ad? Voluptatibus odio obcaecati iusto recusandae tempore, animi sint vel, deserunt quam optio nesciunt quo sunt minima fugiat commodi possimus deleniti sed quaerat repellat tenetur. Animi, ipsa! Odit maxime quaerat nisi corporis ratione excepturi voluptates! Fuga, quis neque ipsa rerum odit natus quae est temporibus, asperiores consectetur ducimus sit voluptas beatae corporis quo. Molestias sint veniam, nisi corrupti cumque optio cum impedit, voluptate alias eveniet maxime provident tempora. Ipsam, aspernatur pariatur. Nulla non error nihil dolore dolorem cumque atque minima. Voluptas aliquid alias officia neque numquam praesentium blanditiis voluptatibus reprehenderit voluptates! Cupiditate quos aut sit possimus error hic est laboriosam maiores atque tempore a consequuntur itaque molestiae accusamus sequi deleniti, amet minus! Eveniet ipsa minima quam consectetur omnis ex nostrum dolore suscipit, eos labore totam voluptas maxime enim dignissimos, similique ipsum ea velit perspiciatis. Alias officia ad ipsam in facere rem ab, ratione repudiandae. Fuga, atque sit perspiciatis consequuntur corrupti quidem ipsam accusantium? Odit harum fuga distinctio quod corrupti quibusdam? Nihil tempore aspernatur, dolorum dolores aliquam nostrum reiciendis nam! Ex vitae voluptates est omnis aspernatur esse? Molestias, saepe blanditiis? Et amet temporibus perspiciatis quas ipsa itaque, expedita dolorum ad officiis quidem quaerat quam. Deserunt excepturi aliquam rerum iusto consectetur, odit non commodi! Ab neque illum natus rem ex sed, voluptatem, eius, vero soluta possimus aut. Amet quod, dignissimos similique laudantium nisi saepe nulla enim ad voluptatibus veritatis odio dolore eligendi quos dolorem, unde, magnam et provident fugiat atque maxime nostrum asperiores eaque porro quasi? Eos cum non similique quos quidem sapiente porro dicta et facere dolor! Fugit maiores quasi, pariatur impedit omnis quam numquam vitae iure eaque, necessitatibus voluptatum officia quibusdam porro consequatur nostrum, minima aliquam repellat sit quo? Fugiat earum minus in ipsa minima consequatur delectus ab fuga magni ducimus ad tempora nesciunt numquam harum voluptas, dolore est voluptatum similique vero! Soluta dicta repudiandae eos harum quas expedita inventore totam voluptates architecto deleniti, odio asperiores? Beatae accusamus possimus enim ratione! Quibusdam aliquid natus, exercitationem laboriosam voluptatibus enim numquam vel mollitia quod, dolor similique. Sequi illo tempore quia voluptate molestias ea dolorem cupiditate hic officiis similique voluptatibus qui dolores molestiae aspernatur, perspiciatis, omnis at nesciunt quod. Inventore omnis beatae eveniet perspiciatis doloribus modi perferendis non fuga aliquid quas! Ratione eum tenetur, nulla, commodi consequuntur nemo earum obcaecati sit dignissimos blanditiis eius. Eaque beatae minus numquam voluptatem. Suscipit, reiciendis rem ea ducimus reprehenderit officia autem voluptatem veniam fugiat eos ex beatae neque vel magnam, vero, magni perspiciatis. Quam deleniti, quod cupiditate dolore in maxime repellat placeat? Dolore vel harum recusandae explicabo, exercitationem porro libero excepturi dolor. Tempore, quia dicta ipsa incidunt ea nesciunt itaque tenetur odit eaque aperiam voluptatum, dolorem culpa id odio. Dicta delectus, sint aperiam inventore necessitatibus esse, aliquam quibusdam amet in debitis ullam voluptatem quasi quos? Porro corrupti, vel repellendus suscipit, ea odit architecto id fugit quia quaerat, doloremque molestiae dolorem deleniti perferendis! Magni laborum consectetur, iste praesentium quam provident possimus voluptates libero illo alias minima similique temporibus totam accusamus sint est sapiente quasi tempore deleniti asperiores voluptatibus repellendus. Nobis voluptatibus ipsa doloribus voluptates perferendis aliquam ratione, assumenda dolorem nostrum beatae tenetur autem explicabo rem esse, dicta veritatis aperiam, at ullam. Mollitia, repudiandae iure sunt porro voluptatibus asperiores alias eius perferendis! Magni animi quas corporis rem eum!
-        </Container>
+        <Row>
+            <Col className='mt-4' md='4'>
+                <Col xs={12} md={12}>
+                    <Card className="text-center bg-default">
+
+                        <Image src="/photo.jpg" roundedCircle fluid={true} className='d-flex align-items-center justify-content-center m-auto App__profile_photo' />
+
+                        <Card.Body>
+                            <Card.Title>
+                                Fredo
+                                RAHERIMANJAKANIAINA
+                                <Row className='d-flex justify-content-center mt-4'>
+                                    <a target='_blank' rel="noreferrer" className='social-link' href='https://web.facebook.com/fredo.raherimanjakaniaina/'>
+                                        <Col>
+                                            <FontAwesomeIcon icon={['fab', 'facebook']} size="2x" />
+                                        </Col>
+                                    </a>
+                                    <a target='_blank' rel="noreferrer" className='social-link' href='https://twitter.com/Raherimanjakan1'>
+                                        <Col>
+                                            <FontAwesomeIcon icon={['fab', 'twitter']} size="2x" />
+                                        </Col>
+                                    </a>
+                                    <a target='_blank' rel="noreferrer" className='social-link' href='http://github.com/fredowd'>
+                                        <Col>
+                                            <FontAwesomeIcon icon={['fab', 'github']} size="2x" />
+                                        </Col>
+                                    </a>
+                                    <a target='_blank' rel="noreferrer" className='social-link' href='https://www.linkedin.com/in/fredo-raherimanjakaniaina-77847519b/'>
+                                        <Col>
+                                            <FontAwesomeIcon icon={['fab', 'linkedin']} size="2x" />
+                                        </Col>
+                                    </a>
+                                </Row>
+                            </Card.Title>
+                            <Card.Text className='mt-4'>
+                                Jeune développeur passionné et investi. J'investi du temps dans ma veille technologique afin de fournir des prestations optimal dans mon domaine.
+                                 <br /><br />
+                                J'adore relever des défis, par exemple par les projets personnels que je crées ou aussi des petites défis d'apprentissage que je me lance moi même.
+                                    </Card.Text>
+                            <Button variant="secondary">Télécharger CV</Button>
+                        </Card.Body>
+                    </Card>
+                </Col>
+            </Col>
+            <Col className='mt-4' md='8'>
+
+                <Container>
+                    <h1 className='text-center'>DOMAINES DE COMPETENCES</h1>
+                    <h6 className='text-center'>LANGAGES DE PROGRAMMATION - LOGICIELS MAITRISÉS</h6>
+
+                    <SkillCard title={'Backend'}>
+                        <Row>
+                            <Col>
+                                <FontAwesomeIcon icon={['fab', 'php']} size="6x" />
+                                <h3>PHP</h3>
+                            </Col>
+                            <Col>
+                                <FontAwesomeIcon icon={['fab', 'node']} size="6x" />
+                                <h3>Node JS</h3>
+                            </Col>
+                        </Row>
+                    </SkillCard>
+
+                    <SkillCard title={'Frontend'}>
+                        <Row>
+                            <Col>
+                                <FontAwesomeIcon icon={['fab', 'html5']} size="6x" />
+                                <h3>HTML5</h3>
+                            </Col>
+                            <Col>
+                                <FontAwesomeIcon icon={['fab', 'css3-alt']} size="6x" />
+                                <h3>CSS3</h3>
+                            </Col>
+                            <Col>
+                                <FontAwesomeIcon icon={['fab', 'js']} size="6x" />
+                                <h3>JavaScript</h3>
+                            </Col>
+                            <Col>
+                                <FontAwesomeIcon icon={['fab', 'bootstrap']} size="6x" />
+                                <h3>Bootstrap</h3>
+                            </Col>
+                            <Col>
+                                <FontAwesomeIcon icon={['fab', 'sass']} size="6x" />
+                                <h3>Sass Pre-processor</h3>
+                            </Col>
+                        </Row>
+                    </SkillCard>
+
+                    <SkillCard title={'OS'}>
+                        <Row>
+                            <Col>
+                                <FontAwesomeIcon icon={['fab', 'windows']} size="6x" />
+                                <h3>Windows</h3>
+                            </Col>
+                            <Col>
+                                <FontAwesomeIcon icon={['fab', 'linux']} size="6x" />
+                                <h3>Linux</h3>
+                            </Col>
+                        </Row>
+                    </SkillCard>
+
+                    <SkillCard title={'Framework'}>
+                        <Row>
+                            <Col>
+                                <FontAwesomeIcon icon={['fab', 'laravel']} size="6x" />
+                                <h3>Laravel</h3>
+                            </Col>
+                            <Col>
+                                <FontAwesomeIcon icon={['fab', 'symfony']} size="6x" />
+                                <h3>Symfony</h3>
+                            </Col>
+                        </Row>
+                    </SkillCard>
+
+                    <SkillCard title={'CMS'}>
+                        <Row>
+                            <Col>
+                                <FontAwesomeIcon icon={['fab', 'wordpress']} size="6x" />
+                                <h3>WordPress</h3>
+                            </Col>
+                            <Col>
+                                <FontAwesomeIcon icon={['fab', 'prestashop']} size="6x" />
+                                <h3>Prestashop</h3>
+                            </Col>
+                        </Row>
+                    </SkillCard>
+
+                    <SkillCard title={'Bases de données'}>
+                        <Row>
+                            <Col>
+                                <FontAwesomeIcon icon={['fab', 'database']} size="6x" />
+                                <h3>MySQL</h3>
+                            </Col>
+                        </Row>
+                    </SkillCard>
+                </Container>
+            </Col>
+        </Row>
     )
 }
